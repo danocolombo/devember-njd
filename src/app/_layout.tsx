@@ -6,6 +6,7 @@ import {
 } from '@expo-google-fonts/amatic-sc';
 import { useFonts, Inter_900Black } from '@expo-google-fonts/inter';
 import * as SplashScreen from 'expo-splash-screen';
+// make splash screen display until hid...
 SplashScreen.preventAutoHideAsync();
 export default function RootLayout() {
     const [fontsLoaded, fontError] = useFonts({

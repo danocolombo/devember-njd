@@ -18,7 +18,6 @@ const DayDetailsScreen = () => {
         </View>
     );
 };
-
 export default DayDetailsScreen;
 
 const styles = StyleSheet.create({

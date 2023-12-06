@@ -2,5 +2,9 @@
     "cSpell.words": [
         "amatic",
         "devember"
-    ]
+    ],
+    "search.exclude": {
+        "**/node_modules": false
+    },
+    "search.useIgnoreFiles": false
 }

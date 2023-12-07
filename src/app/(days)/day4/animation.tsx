@@ -25,6 +25,25 @@ const AnimationScreen = () => {
             />
             <Button title='PAUSE' onPress={() => animation.current?.pause()} />
             <Button title='RESET' onPress={() => animation.current?.reset()} />
+            {/* <View>
+                <Text>USING LOTTIE FILE....</Text>
+            </View> */}
+            {/* <LottieView
+                ref={animation}
+                style={{
+                    width: 200,
+                    height: 200,
+                    backgroundColor: '#eee',
+                }}
+                // Find more Lottie files at https://lottiefiles.com/featured
+                source={require('@assets/lottie/NetflixLogo.lottie')}
+            />
+            <Button
+                title='PLAY ANIMATION'
+                onPress={() => animation.current?.play()}
+            />
+            <Button title='PAUSE' onPress={() => animation.current?.pause()} />
+            <Button title='RESET' onPress={() => animation.current?.reset()} /> */}
         </View>
     );
 };

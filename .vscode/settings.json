@@ -1,7 +1,8 @@
 {
     "cSpell.words": [
         "amatic",
-        "devember"
+        "devember",
+        "Splashscreen"
     ],
     "search.exclude": {
         "**/node_modules": false
